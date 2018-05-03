@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestJenkins_WinServ", "Test
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{B8CF4D55-3853-4369-AC77-43DEB9D00466}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service.Core", "..\ServiceCore\ServiceCore\Service.Core\Service.Core.csproj", "{1C553090-04EF-46BC-BCD8-3B3486A30F38}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service.Core", "ServiceCore\Service.Core\Service.Core.csproj", "{1C553090-04EF-46BC-BCD8-3B3486A30F38}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

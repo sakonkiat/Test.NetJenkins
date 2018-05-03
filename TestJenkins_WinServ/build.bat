@@ -1,0 +1,1 @@
+msbuild TestJenkin_WinServ.csproj /t:Build
