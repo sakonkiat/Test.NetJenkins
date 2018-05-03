@@ -55,5 +55,11 @@
     <None Include="log4net.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ServiceCore\Service.Core\Service.Core.csproj">
+      <Project>{1c553090-04ef-46bc-bcd8-3b3486a30f38}</Project>
+      <Name>Service.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
