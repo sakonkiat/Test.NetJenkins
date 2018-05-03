@@ -23,12 +23,14 @@ namespace TestJenkins_WinServ
         {
             StreamWriter sw = new StreamWriter("D:\\testjenkins.log", true, Encoding.UTF8);
             sw.WriteLine(string.Format("{0} : Service started.", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")));
+            sw.WriteLine(string.Format("{0} : Hello world !!!", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")));
             sw.Close();
         }
 
         protected override void OnStop()
         {
             StreamWriter sw = new StreamWriter("D:\\testjenkins.log", true, Encoding.UTF8);
+            sw.WriteLine(string.Format("{0} : Bye...", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")));
             sw.WriteLine(string.Format("{0} : Service Stopped.", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")));
             sw.Close();
         }
